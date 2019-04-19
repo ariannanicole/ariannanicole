@@ -1,0 +1,81 @@
+/* PDF and other Downloadable Files */
+
+.row {
+  display:flex;
+  margin: 1%;
+  text-align:center;
+}
+.pdflink {
+  flex:1;
+  margin: 5%;
+  border: 3px solid #34482A;
+  background-color: #34482A;
+
+}
+.blank{
+  flex:1;
+  margin:5%;
+}
+.pdflink img {
+  width:100%;
+  height:125px;
+  
+}
+.pdflink p {
+  background-color: #34482A;
+  padding: 3%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:0;
+  color:white;
+  margin-bottom:0;
+}
+
+.pdflink p a {
+  color:white;
+}
+.pdflink p a:hover, a:focus, a:active {
+  font-weight: bold;
+}
+
+/* Large Link */
+.link-big {
+  flex:1;
+  margin: 5%;
+  border: 3px solid #184658;
+  background-color: #184658;
+
+}
+
+.link-big img {
+  width:100%;
+  height:500px;
+  
+}
+.link-big p {
+  background-color: #184658;
+  padding: 3%;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-top:0;
+  color:white;
+  margin-bottom:0;
+  text-align:center;
+  font-size:1.5em;
+}
+
+.link-big p a {
+  color:white;
+}
+.link-big p a:hover, a:focus, a:active {
+  font-weight: bold;
+}
+
+
+/* Youtube Video Content */
+
+iframe {
+  margin: 5%;
+  width: 90%;
+  height:300px;
+}

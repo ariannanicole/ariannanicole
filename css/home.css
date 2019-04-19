@@ -1,0 +1,93 @@
+/* Home Page Styles - THESE ONLY MAKE CHANGES TO THE HOME PAGE */
+
+/* Main Styles */
+body {
+  background-color: #221E20; /* set home page large background to black */
+  margin: 1%; /* add black border to all sides of main content */
+  
+  font-family:Verdana, Geneva, sans-serif; /* default font choices */
+  color: white; /* set text color to white as default */
+  font-weight:bold; 
+  font-size: 22px; 
+}
+main{
+  margin: 0%;
+}
+/* Text Headers */
+h1 {
+  font-family: "Libre Baskerville", serif; /* sets header font choices */
+  text-align:center; /* aligns large heading to the middle */
+  font-weight: 500; /* makes text slightly thicker (normal text is 400 while bold is 700 */
+  font-size: 60px; 
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase; /* automatically capitalizes all letters */
+  font-weight: 300; /* makes slightly thinner than regular text */
+  font-size: 28px; 
+  }
+
+/* Header Styles */
+header{
+  display:flex; /* allows for flexible column creation in the header area */
+}
+header h1{
+  flex: 9; /* sets proportion of text to logo */
+  padding-left:12%  /* adds the width of the logo and the logo margin to keep the text center-aligned */
+}
+header img{
+  width: 7%; /* sets width of logo */
+  height: 7%; /* sets height of logo to prevent stretching */
+  margin: auto; /* positions the logo */
+  margin-right: 5%; /* pushes logo off the right side */
+}
+
+/* Main Content Styles */
+div.row {
+  padding: 2%; /* adds colored empty space around text region*/
+  width: 96%; /* sets width to 100% once padding is factored in */
+  margin: 1% 0; /* creates space in between colored divs */
+  display:flex; /* allows for even columns to be created in these divs */
+}
+
+@media (max-width: 700px){
+  div.row { 
+    display:block;
+  }
+}
+div.blue {
+  background-color: #184658; /* blue */
+}
+
+div.green {
+  background-color: #34482A; /* green */
+}
+
+div.purple {
+  background-color: #22263E; /* purple */
+}
+
+div.col {
+ flex: 1; /* sets all columns to equal width in colored divs */
+}
+div.col li {
+  margin-bottom: 5%;
+
+}
+div.col a{ /* all links within div.col */
+  color: white; /* changes text color from link default blue to white */
+  text-decoration:none; /* removes underline from link default */
+}
+div.col a:hover, a:focus, a:active { /* When a link in div.col is hovered on, highlighted, or selected, these things will happen */
+  font-weight:bold; /* the font will bold itself */
+  font-size: 24px; /* add 2px to the default font size (18px) */
+}
+
+/* Quote Style */
+
+.quote{
+  text-align:center;
+  margin:3%; /* set quote off from the side */
+}
+
