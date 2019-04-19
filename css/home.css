@@ -15,14 +15,14 @@ main{
 }
 /* Text Headers */
 h1 {
-  font-family: "Libre Baskerville", serif; /* sets header font choices */
+  font-family:Verdana, Geneva, sans-serif; /* default font choices */  
   text-align:center; /* aligns large heading to the middle */
   font-weight: 500; /* makes text slightly thicker (normal text is 400 while bold is 700 */
   font-size: 60px; 
 }
 
 h3 {
-  font-family: "Libre Baskerville", serif;
+  font-family:Verdana, Geneva, sans-serif; /* default font choices */
   text-transform: uppercase; /* automatically capitalizes all letters */
   font-weight: 300; /* makes slightly thinner than regular text */
   font-size: 28px; 

@@ -14,15 +14,17 @@ body {
   font-size: 14px;
   margin:0;
 }
+
 h1, h2, h3, h4, h5 {
-  font-family: "Libre Baskerville", serif; /* sets header font choices */
+  font-family:Verdana, Geneva, sans-serif; /* default font choices */
 }
+
 h1, h3 {
   background-color: #34482A;
   margin-left: -3%;
   padding:3% 5%;
   margin-top:0;
-  color:#F1F7ED;
+  color:#fcfdfb;
 }
 
 h1 {
@@ -91,8 +93,9 @@ nav ul li:hover, li:focus, li:active {
 }
 
 button {
-  font-family: "Libre Baskerville", serif; /* sets header font choices */
-  font-size: 20px;
+  font-size: 16px;
+  font-family:Verdana, Geneva, sans-serif; /* default font choices */
+
 }
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
